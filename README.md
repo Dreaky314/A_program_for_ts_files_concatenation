@@ -1,2 +1,38 @@
-# A_program_for_ts_files_concatenation
-An FFmpeg-based program for merging TS video files. It has a GUI panel that allows you to either automatically import a list of TS video files from an M3U8 file or import them manually. It supports direct merge output, re-encoded output, and output at a specified bitrate.
+<img width="850" height="936" alt="61a66efde3f31fbf10ac5bc59c56c729" src="https://github.com/user-attachments/assets/91c38f36-5257-4fa5-acac-b8ad9af5db2e" /># TS 文件合并工具
+
+一个用来把下载到本地的 **TS 分片** 或 **m3u8 播放列表** 合并成完整视频的小工具。
+
+因为发现下载的视频全是 `.ts` 切片，懒得敲ffmpeg指令，叫ai写的程序（我的天哪是ds大人）。
+
+---
+
+## 功能
+
+- **合并 TS 分片**：手动添加文件、添加整个目录，自动按文件名里的数字自然排序
+- **从 m3u8 导入**：直接选本地 `.m3u8` 文件，自动解析出所有分片路径并填入列表
+- **三种编码模式**：
+  - `直接拼接`：`-c copy`，不重编码，速度最快，码率与原文件一致
+  - `高质量重编码`：libx264 CRF 18，接近无损，但慢
+  - `指定码率`：libx264 固定码率（如 4M / 8M / 2000k）
+- **多种输出格式**：mp4 / ts / mkv
+- **ts文件手动排序**：上移、下移、删除选中、清空列表
+- **ffmpeg 路径可配置**：支持浏览选择、自动检测、一键测试
+- **实时日志**：ffmpeg 输出实时滚动，错误行标红
+- **查看命令**：合并前可以先看一眼实际执行的 ffmpeg 命令(~~ffmpeg:你盯着我干嘛~~)
+
+---
+
+## 环境要求
+
+- [ffmpeg](https://ffmpeg.org/download.html)（必须，且需要 `ffmpeg.exe` 和 `ffprobe.exe`）
+- 可以把ffmpeg加到环境里，但是程序识别好像有问题（~~绝对不是我不会改~~），但是程序里也提供了手动选择ffmpeg位置的方案
+
+---
+
+## 运行
+
+直接运行exe文件即可
+
+## 最后放一张照片，README大部分也是ds老师写的，ds老师超神了
+<img width="850" height="936" alt="61a66efde3f31fbf10ac5bc59c56c729" src="https://github.com/user-attachments/assets/114ee98c-bd40-4459-b486-c83be4b1c8d6" />
+
