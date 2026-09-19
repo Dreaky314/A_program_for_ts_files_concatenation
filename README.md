@@ -1,4 +1,3 @@
-<img width="850" height="936" alt="61a66efde3f31fbf10ac5bc59c56c729" src="https://github.com/user-attachments/assets/91c38f36-5257-4fa5-acac-b8ad9af5db2e" /># TS 文件合并工具
 
 一个用来把下载到本地的 **TS 分片** 或 **m3u8 播放列表** 合并成完整视频的小工具。
 
