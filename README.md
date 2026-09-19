@@ -32,6 +32,42 @@
 
 直接运行exe文件即可
 
+---
+
+A small tool for merging locally downloaded **TS segments** or **m3u8 playlists** into a complete video.
+
+Because I found that the downloaded videos were all `.ts` chunks, and I was too lazy to type ffmpeg commands, I had an AI write the program (OMG, it's DS-sama).
+
+---
+
+## Features
+
+- **Merge TS segments**: Manually add files, add an entire directory, automatically natural-sort by the numbers in filenames
+- **Import from m3u8**: Select a local `.m3u8` file directly, automatically parse all segment paths and fill them into the list
+- **Three encoding modes**:
+  - `Direct concatenation`: `-c copy`, no re-encoding, fastest, bitrate same as the original files (but in actual tests it comes out smaller for some reason)
+  - `High-quality re-encoding`: libx264 CRF 18, nearly lossless, but slow
+  - `Specified bitrate`: libx264 fixed bitrate (e.g. 4M / 8M / 2000k)
+- **Multiple output formats**: mp4 / ts / mkv
+- **Manual TS file sorting**: Move up, move down, delete selected, clear list
+- **Configurable ffmpeg path**: Supports browse selection, auto-detection, one-click test
+- **Real-time logs**: ffmpeg output scrolls in real time, error lines are marked in red
+- **View command**: Before merging, you can take a look at the ffmpeg command that will actually be executed (~~ffmpeg: why are you staring at me~~)
+
+---
+
+## Requirements
+
+- [ffmpeg](https://ffmpeg.org/download.html) (required, and requires `ffmpeg.exe` and `ffprobe.exe`)
+- You can add ffmpeg to the environment, but the program seems to have trouble recognizing it (~~definitely not because I don't know how to fix it~~), but the program also provides an option to manually select the ffmpeg location
+
+---
+
+## Run
+
+Just run the exe file directly.
+
+## Finally, here's a photo. Most of the README was also written by DS-sensei. DS-sensei is godlike.
 ## 最后放一张照片，README大部分也是ds老师写的，ds老师超神了
 <img width="850" height="936" alt="61a66efde3f31fbf10ac5bc59c56c729" src="https://github.com/user-attachments/assets/114ee98c-bd40-4459-b486-c83be4b1c8d6" />
 
