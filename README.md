@@ -1,4 +1,6 @@
 
+## 简介
+
 一个用来把下载到本地的 **TS 分片** 或 **m3u8 播放列表** 合并成完整视频的小工具。
 
 因为发现下载的视频全是 `.ts` 切片，懒得敲ffmpeg指令，叫ai写的程序（我的天哪是ds大人）。
@@ -39,6 +41,8 @@
 有 bug 或者想要的功能，提 Issue，我尽量改（虽然我也是让 AI 搓）
 
 ---
+
+## Introduction
 
 A small tool for merging locally downloaded **TS segments** or **m3u8 playlists** into a complete video.
 
