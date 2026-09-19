@@ -67,7 +67,7 @@ Because I found that the downloaded videos were all `.ts` chunks, and I was too 
 
 Just run the exe file directly.
 
-## Finally, here's a photo. Most of the README was also written by DS-sensei. DS-sensei is godlike.
+## Finally, here's a photo. Most of the README was also written by DS-sama. DS-sama is godlike.
 ## 最后放一张照片，README大部分也是ds老师写的，ds老师超神了
 <img width="850" height="936" alt="61a66efde3f31fbf10ac5bc59c56c729" src="https://github.com/user-attachments/assets/114ee98c-bd40-4459-b486-c83be4b1c8d6" />
 
