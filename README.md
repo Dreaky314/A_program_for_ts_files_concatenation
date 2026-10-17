@@ -1,3 +1,7 @@
+## 注意
+
+该项目已经与批量重命名项目[video_rename_and_copy]([https://github.com/你的用户名](https://github.com/Dreaky314/video_rename_and_copy.git))整合在新项目[Media_Toolbox
+](https://github.com/Dreaky314/Media_Toolbox.git)
 
 ## 简介
 
