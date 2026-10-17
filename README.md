@@ -46,6 +46,10 @@
 
 ---
 
+## Note
+
+This project has been merged with the batch file renaming project [video_rename_and_copy](https://github.com/Dreaky314/video_rename_and_copy) into a new project: [Media_Toolbox](https://github.com/Dreaky314/Media_Toolbox).
+
 ## Introduction
 
 A small tool for merging locally downloaded **TS segments** or **m3u8 playlists** into a complete video.
